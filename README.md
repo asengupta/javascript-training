@@ -2,6 +2,7 @@
 Run `node -v`
 
 Evaluate the function and print the result = EFPR
+Write a Function Which = WAFW
 
 ## Variables
 - Create a variable using `var`. EFPR. Attempt to modify it.
@@ -25,6 +26,41 @@ Evaluate the function and print the result = EFPR
 - Print out the contents of an array `numbers` `[1,2,3,4,5,6,7,8,9,10]`.
 
 ### Mapping
-- Double the elements of `numbers`.
-- Find the remainder of all elements of `numbers` when divided by 2.
-- Map `numbers` to `['a', 'aa', 'aaa', 'aaaa', 'aaaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaaaa', 'aaaaaaaaa', 'aaaaaaaaaa']`.
+- WFW Double the elements of `numbers`. EFPR.
+- WFW Find the remainder of all elements of `numbers` when divided by 2. EFPR.
+- WFW Map `numbers` to `['a', 'aa', 'aaa', 'aaaa', 'aaaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaaaa', 'aaaaaaaaa', 'aaaaaaaaaa']`. EFPR.
+
+### Filtering
+- WFW returns all the even elements of `numbers`. EFPR.
+- WFW returns an array containing every alternate element of `['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', ]`, like `['a', 'c', 'e', 'g', 'i']`. EFPR.
+- WFW finds the remainder of all elements of `numbers` when divided by 2. EFPR.
+- WFW map `numbers` to `['a', 'aa', 'aaa', 'aaaa', 'aaaaa', 'aaaaaa', 'aaaaaaa', 'aaaaaaaa', 'aaaaaaaaa', 'aaaaaaaaaa']`. EFPR.
+
+### Reducing
+- WFW returns the sum of all numbers in an array of numbers. EFPR.
+- Implement `reduce` using recursion. EFPR.
+
+## Data Structures: Objects
+- Use this for reference:
+```
+const members = {
+    "Duski": {
+        nickname: "Grope Guru",
+        age: 1
+    },
+    "Jess": {
+        nickname: "Munted Bandit",
+        age: 69
+    },
+    "Dexpair": {
+        nickname: "Memelord",
+        age: 420
+    }
+}
+```
+- Print out all the keys of `members`.
+- Print out all the values of `members`.
+- Print out all the entries of `members`.
+- Print out Dexpair's entry in `members`.
+- WFW adds 10 to every `age` in the object. EFPR.
+- WFW adds 10 to every `age` in the object, without mutation. EFPR.

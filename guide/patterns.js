@@ -54,7 +54,9 @@ x(...["Name", "Age"])
 
 const records = [{name: "A", age: 23}, {name: "B", age: 24}]
 const obj = {...records}
+const arr = [...records]
 console.log(obj)
+console.log(arr)
 
 
 console.log("Modification without mutation")
@@ -82,3 +84,13 @@ console.log(z)
 // Scratchpad
 console.log("abcdefghij".slice(-3))
 const t = function() {}
+
+function reduce(arr, fn, initial) {
+    return myReduce(arr, fn, initial)
+}
+function myReduce(arr, fn, currentAccumulator) {
+    if (arr[0] === undefined) return currentAccumulator
+    return myReduce(arr.slice(1), fn, fn(currentAccumulator, arr[0]))
+}
+
+console.log(reduce([1, 2, 3, 4, 7, 8], (acc, current) => acc + current, 0))
