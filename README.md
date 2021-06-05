@@ -65,3 +65,10 @@ const members = {
 - Print out Dexpair's entry in `members`.
 - WFW adds 10 to every `age` in the object. EFPR.
 - WFW adds 10 to every `age` in the object, without mutation. EFPR.
+
+## General Coding Guidelines
+
+- Use `const` for declaring variables.
+- Avoid mutating maps and arrays in general.
+- Use good names for functions.
+- Don't make your functions too long.
