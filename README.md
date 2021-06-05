@@ -1,8 +1,8 @@
 ## List your Node version
 Run `node -v`
 
-Evaluate the function and print the result = EFPR
-Write a Function Which = WAFW
+Evaluate the function and print the result = **EFPR** \
+Write a Function Which = **WAFW**
 
 ## Variables
 - Create a variable using `var`. EFPR. Attempt to modify it.
