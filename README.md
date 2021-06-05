@@ -9,7 +9,7 @@ Write a Function Which = **WAFW**
 - Create a `const` variable. Attempt to modify its value. EFPR. 
 
 ## Functions and Lambdas
-- WFW which returns 1+<the number you pass in>. EFPR.
+- WFW which returns *the number you pass in* **plus 1**. EFPR.
 - WFW which adds the string "Tron" to a string parameter. EFPR. 
 - WFW which, given a string parameter, returns the last 3 characters of this string. EFPR.
 - Higher Order Functions:
