@@ -14,8 +14,16 @@ function sum(n) {
     if (n === 0) return 0;
     return n + sum(n-1)
 }
-
 console.log(sum(5))
+
+console.log("Traversing Array    with Recursion")
+console.log("-----------------------")
+function foreach(arr, fn) {
+    if (arr[0] === undefined) return
+    fn(arr[0])
+    foreach(arr.slice(1), fn)
+}
+foreach([1,2,3,4,5,6], x => console.log(x))
 
 // Functions and lambdas
 console.log("Functions and Lambdas")

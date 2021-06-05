@@ -21,10 +21,11 @@ Write a Function Which = **WAFW**
 ## Looping and Recursing
 - Create a function which returns the sum of numbers from 1 to `n`. EFPR.
 - WFW goes into an infinite loop. EFPR.
-- Create a function which returns the sum of numbers from 1 to `n` without using `for`. EFPR.
+- WFW returns the sum of numbers from 1 to `n` without using `for`. EFPR.
 
 ## Data Structures: Arrays
-- Print out the contents of an array `numbers` `[1,2,3,4,5,6,7,8,9,10]`.
+- Print out the contents of an array `numbers` (`[1,2,3,4,5,6,7,8,9,10]`) with the string `This is:` before each element, using `for`.
+- Do the same as above without using `for`.
 
 ### Mapping
 - WFW Double the elements of `numbers`. EFPR.
