@@ -11,13 +11,13 @@ Run `node -v`
 - Create a `const` variable. Attempt to modify its value. EFPR. 
 
 ## Functions and Lambdas
-- WFW which returns *the number you pass in* **plus 1**. EFPR.
+- WFW which returns *the index you pass in* **plus 1**. EFPR.
 - WFW which adds the string "Tron" to a string parameter. EFPR. 
 - WFW which, given a string parameter, returns the last 3 characters of this string. EFPR.
 - Higher Order Functions:
-    - Create a function `f` which doubles a given number. EFPR.
-    - Create a function `g` which halves a number. EFPR.
-    - Create a function that accepts a number `n`, and returns `n+2n` or `n+n/2` depending on whether you pass in `f` or `g`. EFPR.
+    - Create a function `f` which doubles a given index. EFPR.
+    - Create a function `g` which halves a index. EFPR.
+    - Create a function that accepts a index `n`, and returns `n+2n` or `n+n/2` depending on whether you pass in `f` or `g`. EFPR.
 - Simplify `f` and `g` to their lambda forms.
 
 ## Looping and Recursing
