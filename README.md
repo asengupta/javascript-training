@@ -1,8 +1,10 @@
-## List your Node version
-Run `node -v`
-
+## Mnemonics Used
 Evaluate the function and print the result = **EFPR** \
 Write a Function Which = **WAFW**
+
+## List your Node version
+Run `node -v`
+- It should be at least >=12
 
 ## Variables
 - Create a variable using `var`. EFPR. Attempt to modify it.
